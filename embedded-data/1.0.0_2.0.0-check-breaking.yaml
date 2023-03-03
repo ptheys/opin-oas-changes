@@ -1,0 +1,37 @@
+﻿Backward compatibility errors (12):
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'401'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'406'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'429'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'500'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'400'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'404'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'422'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'200'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'403'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'405'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'default'[0m status
+[31merror[0m	[[33mresponse-property-max-length-unset[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/devices/{policyId}[0m
+		the [1m'data/insured/documentType'[0m response property's maxLength was unset from [1m'28'[0m for the response status [1m'200'[0m

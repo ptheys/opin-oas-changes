@@ -1,0 +1,7 @@
+﻿Backward compatibility errors (2):
+[31merror[0m	[[33mresponse-body-type-changed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/life-pension[0m
+		the response's body type/format changed from [1m'array'[0m/[1m'none'[0m to [1m'object'[0m/[1m'none'[0m for status [1m'200'[0m
+[31merror[0m	[[33mresponse-body-type-changed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/life-pension[0m
+		the response's body type/format changed from [1m'array'[0m/[1m'none'[0m to [1m'object'[0m/[1m'none'[0m for status [1m'default'[0m

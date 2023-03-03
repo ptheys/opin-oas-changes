@@ -1,0 +1,4 @@
+﻿Backward compatibility errors (1):
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mGET[0m [32m/auto-extended-warranty/[0m
+		api path removed without deprecation

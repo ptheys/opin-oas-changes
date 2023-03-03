@@ -1,0 +1,10 @@
+﻿Backward compatibility errors (3):
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mPOST[0m [32m/[0m
+		api path removed without deprecation
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mDELETE[0m [32m/{consentId}[0m
+		api path removed without deprecation
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mGET[0m [32m/{consentId}[0m
+		api path removed without deprecation

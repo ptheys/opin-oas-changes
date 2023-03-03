@@ -1,0 +1,13 @@
+﻿Backward compatibility errors (4):
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mGET[0m [32m/{policyId}/premium[0m
+		api path removed without deprecation
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mGET[0m [32m/[0m
+		api path removed without deprecation
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mGET[0m [32m/{policyId}/claim[0m
+		api path removed without deprecation
+[31merror[0m	[[33mapi-path-removed-without-deprecation[0m] at original_source=/data/1.0.0.yaml	
+	in API [32mGET[0m [32m/{policyId}/policy-info[0m
+		api path removed without deprecation

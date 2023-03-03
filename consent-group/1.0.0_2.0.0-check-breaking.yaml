@@ -1,0 +1,100 @@
+﻿Backward compatibility errors (33):
+[35mwarning[0m	[[33moptional-response-header-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		the optional response header [1m'x-fapi-interaction-id'[0m removed for the status [1m'204'[0m
+[31merror[0m	[[33mresponse-success-status-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the success response with the status [1m'200'[0m
+[31merror[0m	[[33mresponse-media-type-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the media type [1m'application/json; charset=utf-8'[0m for the response with the status [1m'default'[0m
+[31merror[0m	[[33mresponse-media-type-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the media type [1m'application/json; charset=utf-8'[0m for the response with the status [1m'default'[0m
+[31merror[0m	[[33mresponse-media-type-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the media type [1m'application/json; charset=utf-8'[0m for the response with the status [1m'default'[0m
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'406'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'401'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'405'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'422'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'429'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'403'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'500'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'400'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'404'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'406'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'403'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'400'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'429'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'500'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'401'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'404'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'405'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mDELETE[0m [32m/group/{consentId}[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'422'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'201'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'400'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'403'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'404'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'422'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'500'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'401'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'406'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'429'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mPOST[0m [32m/group[0m
+		removed the required property [1m'meta/requestDateTime'[0m from the response with the [1m'405'[0m status

@@ -1,0 +1,7 @@
+﻿Backward compatibility errors (2):
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/capitalization-title[0m
+		removed the required property [1m'brand'[0m from the response with the [1m'default'[0m status
+[31merror[0m	[[33mresponse-required-property-removed[0m] at /data/2.0.0.yaml	
+	in API [32mGET[0m [32m/capitalization-title[0m
+		removed the required property [1m'brand'[0m from the response with the [1m'200'[0m status
